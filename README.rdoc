@@ -1,3 +1,5 @@
+# Ruby on Rails Tutorial: sample application (railstutorial.org)
+
 == README
 
 This README would normally document whatever steps are necessary to get the
