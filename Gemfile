@@ -10,6 +10,11 @@ gem 'sqlite3'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+
+  #GM trying this  
+  gem 'selenium-webdriver'
+  gem 'capybara'
+  
 end
 group :test do
   gem 'selenium-webdriver'
