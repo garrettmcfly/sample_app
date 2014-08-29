@@ -11,19 +11,11 @@ gem 'bcrypt-ruby'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
-#GM
-group :development, :test do
-  gem 'sqlite3'
-  gem 'rspec-rails'
-
-  #GM trying this  
-  gem 'selenium-webdriver'
-  gem 'capybara'
-  
-end
 group :test do
+  gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 # Use SCSS for stylesheets
