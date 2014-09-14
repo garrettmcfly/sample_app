@@ -16,6 +16,10 @@ gem 'sqlite3'
 
 group :test do
   gem 'rspec-rails'
+  
+  #GM
+  gem 'rspec-its'
+  
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'factory_girl_rails'
